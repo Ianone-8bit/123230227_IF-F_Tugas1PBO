@@ -62,7 +62,7 @@ public class Login extends JFrame implements ActionListener {
                 char[] passwordChar = passwordTextField.getPassword();
                 String password = new String(passwordChar);
 
-                if (username.equals("1") && password.equals("1")) {
+                if (username.equals("227") && password.equals("722")) {
                     System.out.println("Sukses");
                     JOptionPane.showMessageDialog(this, "Login Berhasil!");
                     
